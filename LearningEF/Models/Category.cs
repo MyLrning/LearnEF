@@ -1,18 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Text.Json.Serialization;
 
 namespace LearningEF.Models;
 
 public class Category
 {
-    [Key]
     public int Id { get; set; }
-
-    [Required]
-    [MaxLength(150)]
-    public string Name { get; set; }
-    public string Description { get; set; }
-    public virtual ICollection<Duty> Duties { get; set; }
+    public string Name { get; set; } = null!;
+    public string? Description { get; set; }
+    public int Weight { get; set; }
+    [JsonIgnore]
+    public virtual ICollection<Duty>? Duties { get; set; }
 
 }
-
-

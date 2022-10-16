@@ -58,3 +58,7 @@ F:\W11\Dev\.NET\LearningEF\LearningEF\obj\Debug\net6.0\refint\LearningEF.dll
 F:\W11\Dev\.NET\LearningEF\LearningEF\obj\Debug\net6.0\LearningEF.pdb
 F:\W11\Dev\.NET\LearningEF\LearningEF\obj\Debug\net6.0\LearningEF.genruntimeconfig.cache
 F:\W11\Dev\.NET\LearningEF\LearningEF\obj\Debug\net6.0\ref\LearningEF.dll
+F:\W11\Dev\.NET\LearningEF\LearningEF\bin\Debug\net6.0\Humanizer.dll
+F:\W11\Dev\.NET\LearningEF\LearningEF\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\W11\Dev\.NET\LearningEF\LearningEF\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+F:\W11\Dev\.NET\LearningEF\LearningEF\bin\Debug\net6.0\AddTaskBody.json

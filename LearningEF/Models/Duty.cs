@@ -5,21 +5,17 @@ namespace LearningEF.Models;
 
 public class Duty
 {
-    [Key]
     public int Id { get; set; }
+    public int CategoryId { get; set; }
+    public string? Title { get; set; }
     
-    [ForeignKey("Id")]
-    public string Title { get; set; }
-
-    [Required]
-    [MaxLength(200)]
-    public string Description { get; set; }
+    public string? Description { get; set; }
     public Priority Priority { get; set; }
     public DateTime CreateDate { get; set; }
-    public virtual Category Category { get; set; }
-
-    [NotMapped]
-    public string Summary { get; set; }
+    public DateTime Deadline { get; set; }
+    public virtual Category? Category { get; set; }
+    
+    public string? Summary { get; set; }
 
 }
 
